@@ -1,1 +1,1 @@
--- Strapi Migration Draft, to use codemods
+-- Strapi Migration Draft, to use code mods

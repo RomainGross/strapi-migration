@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "formulaire_contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.formulaire-contact",
+      "required": true
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    }
+  }
+}

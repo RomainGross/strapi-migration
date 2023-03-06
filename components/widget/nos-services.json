@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_widget_nos_services",
+  "info": {
+    "name": "Nos services",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "bloc_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bloc-explicatif",
+      "required": true
+    },
+    "bloc_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bloc-explicatif",
+      "required": true
+    },
+    "bloc_3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bloc-explicatif",
+      "required": true
+    }
+  }
+}

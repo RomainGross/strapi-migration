@@ -1,0 +1,71 @@
+{
+  "collectionName": "components_widget_hebergements",
+  "info": {
+    "name": "Hebergement",
+    "icon": "home",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "nom_centre": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "voir_sur_carte": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "telephone_centre": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "appeler_centre": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "statut_centre": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "titre_encart_informations": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "contenu_encart_informations": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-long-i18n"
+    },
+    "heberge_depuis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "domicilie_depuis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

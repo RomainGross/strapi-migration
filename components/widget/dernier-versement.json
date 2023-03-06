@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_widget_dernier_versements",
+  "info": {
+    "name": "Dernier Versement",
+    "icon": "money-bill-alt"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "aucun_versement_message": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n"
+    },
+    "statut": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "periode": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "nombre_jours": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "attributaire": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "telecharger_attestation_versements": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "acceder_page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "statuts": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "champ.statuts"
+    }
+  }
+}

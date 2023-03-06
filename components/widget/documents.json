@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_widget_documents",
+  "info": {
+    "name": "Documents",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "nom_button": {
+      "type": "component",
+      "repeatable": false,
+      "required": false,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

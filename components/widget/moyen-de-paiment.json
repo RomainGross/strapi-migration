@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_widget_moyen_de_paiments",
+  "info": {
+    "name": "Moyen de Paiment",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "carte": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "widget.carte"
+    },
+    "virement": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "widget.virement"
+    },
+    "informations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "note_explicative": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.text-enrichi-i18n"
+    },
+    "heberge_depuis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "domicilie_depuis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

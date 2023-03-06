@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_widget_retour_voyage_a_venirs",
+  "info": {
+    "name": "retour voyage a venir",
+    "icon": "plane"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "label_france": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

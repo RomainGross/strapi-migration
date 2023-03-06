@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_widget_procedure_regroupement_familial",
+  "info": {
+    "name": "Procedure Regroupement Familial",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "numero_dossier": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "texte_lien_espace_regroupement_familial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

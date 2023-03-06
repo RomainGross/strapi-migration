@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "maintenances",
+  "info": {
+    "name": "Maintenance",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true,
+    "privateAttributes": [
+      "created_at",
+      "updated_at",
+      "published_at"
+    ]
+  },
+  "attributes": {
+    "mc": {
+      "type": "boolean"
+    },
+    "mec": {
+      "type": "boolean"
+    },
+    "dfm": {
+      "type": "date"
+    }
+  }
+}

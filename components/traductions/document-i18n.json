@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_traductions_document_i18ns",
+  "info": {
+    "name": "Document i18n",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "fr": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "en": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

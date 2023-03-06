@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/les-procedures",
+      "handler": "les-procedures.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/les-procedures",
+      "handler": "les-procedures.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/les-procedures",
+      "handler": "les-procedures.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

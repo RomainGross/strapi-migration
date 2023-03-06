@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_integration_france",
+  "info": {
+    "name": "Intégration en France",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "label_lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "bloc_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bloc-integration-france",
+      "required": true
+    },
+    "bloc_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bloc-integration-france",
+      "required": true
+    }
+  }
+}

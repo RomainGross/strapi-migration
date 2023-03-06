@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_widget_procedure_reinsertions",
+  "info": {
+    "name": "Procedure Reinsertion",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "titre_niveau_aide_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "titre_niveau_aide_2_et_3": {
+      "type": "component",
+      "description": "Variables disponibles: {beneficiaire}. ⚠️ Attention à bien les utiliser avec les accolades",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "description_niveau_aide_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    },
+    "description_niveau_aide_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    },
+    "description_niveau_aide_3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    },
+    "label_etape_prise_de_rdv": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "label_etape_etude_en_cours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "label_etape_decision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "texte_lien_espace_reinsertion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

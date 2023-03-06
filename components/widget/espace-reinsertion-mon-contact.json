@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_espace_reinsertion_mon_contacts",
+  "info": {
+    "name": "Espace Reinsertion - Mon Contact",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "label_adresse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "label_telephone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

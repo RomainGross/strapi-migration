@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/plan-aeroports",
+      "handler": "plan-aeroports.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/plan-aeroports",
+      "handler": "plan-aeroports.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/plan-aeroports",
+      "handler": "plan-aeroports.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

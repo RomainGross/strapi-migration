@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "comptes",
+  "info": {
+    "name": "compte"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "coordonnees_de_contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.coordonnees-de-contact",
+      "required": true
+    },
+    "etat_civil": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.etat-civil",
+      "required": true
+    },
+    "composition_familiale": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.composition-familiale"
+    },
+    "modification_mot_de_passe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.modification-mot-de-passe"
+    }
+  }
+}

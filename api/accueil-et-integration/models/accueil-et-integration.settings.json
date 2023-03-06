@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "accueil_et_integrations",
+  "info": {
+    "name": "Accueil et intégration",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "etapes_parcours": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.introduction",
+        "widget-page-contenu.groupe-accordeon",
+        "widget-page-contenu.eligibilite",
+        "widget-page-contenu.groupe-vignette",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.document-button"
+      ]
+    },
+    "apprendre_francais": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.introduction",
+        "widget-page-contenu.groupe-accordeon",
+        "widget-page-contenu.eligibilite",
+        "widget-page-contenu.groupe-vignette",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.document-button"
+      ]
+    }
+  }
+}

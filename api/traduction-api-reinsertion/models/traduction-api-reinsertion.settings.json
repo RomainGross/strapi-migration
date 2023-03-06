@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "traduction_api_reinsertions",
+  "info": {
+    "name": "Traduction api reinsertion",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "decision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.rri-decision",
+      "required": true
+    },
+    "clef_statuts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.trad-api-reinsertion-clef-statuts-mapping",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_champ_genres",
+  "info": {
+    "name": "genres",
+    "icon": "child"
+  },
+  "options": {},
+  "attributes": {
+    "homme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "femme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "neutre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

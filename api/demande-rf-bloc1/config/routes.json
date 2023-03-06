@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/demande-rf-bloc-1",
+      "handler": "demande-rf-bloc1.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/demande-rf-bloc-1",
+      "handler": "demande-rf-bloc1.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/demande-rf-bloc-1",
+      "handler": "demande-rf-bloc1.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

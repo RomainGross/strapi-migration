@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rgpd",
+      "handler": "rgpd.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rgpd",
+      "handler": "rgpd.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rgpd",
+      "handler": "rgpd.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

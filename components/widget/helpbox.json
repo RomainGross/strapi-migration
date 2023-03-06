@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_widget_helpboxes",
+  "info": {
+    "name": "helpbox",
+    "icon": "exclamation-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "contenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n"
+    },
+    "bouton_ou_lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

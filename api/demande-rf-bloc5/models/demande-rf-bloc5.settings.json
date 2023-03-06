@@ -1,0 +1,110 @@
+{
+  "kind": "singleType",
+  "collectionName": "demande_rf_bloc5s",
+  "info": {
+    "name": "Demande RF - Bloc5",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre_principal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "bulle_aide_attention_completude": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "checkbox_certifie_info_exacts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n"
+    },
+    "checkbox_changement_a_ladministration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n"
+    },
+    "checkbox_certifie_non_polygamie": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n"
+    },
+    "checkbox_article_code_entree_sejour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n"
+    },
+    "checkbox_certifie_avoir_lu_ensemble_engagement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n"
+    },
+    "checkbox_acceptation_rgpd": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n"
+    },
+    "checkbox_numero_fixe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "tuile_rgpd_titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "tuile_rgpd_contenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n"
+    },
+    "tuile_rgpd_taille_fichier": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "numero_portable": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "adresse_email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "numero_fixe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "btn_envoyer_demande": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "fichier_lettre_explication": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "infobulle_fichier_lettre_explication_rf_partiel": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    }
+  }
+}

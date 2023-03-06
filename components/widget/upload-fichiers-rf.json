@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_widget_upload_fichiers_rfs",
+  "info": {
+    "name": "Upload Fichiers RF",
+    "icon": "arrow-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre_fichier": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "infos_fichier": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n"
+    },
+    "bulle_aide_fichier_titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "bulle_aide_fichier_contenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n"
+    },
+    "bulle_aide_fichier_texte_lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "bulle_aide_fichier_lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

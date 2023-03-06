@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/expression-besoin",
+      "handler": "expression-besoin.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/expression-besoin",
+      "handler": "expression-besoin.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/expression-besoin",
+      "handler": "expression-besoin.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

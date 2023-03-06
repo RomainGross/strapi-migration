@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/compte",
+      "handler": "compte.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/compte",
+      "handler": "compte.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/compte",
+      "handler": "compte.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

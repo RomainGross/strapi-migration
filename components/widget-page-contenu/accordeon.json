@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_widget_page_contenu_accordeons",
+  "info": {
+    "name": "accordeon",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "sous_titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "introduction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n"
+    },
+    "lignes_accordeon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-page-contenu.ligne-accordeon",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_widget_bloc_liens",
+  "info": {
+    "name": "Bloc Lien",
+    "icon": "chevron-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre_bloc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    },
+    "texte_lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

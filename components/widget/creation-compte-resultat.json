@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_widget_creation_compte_resultats",
+  "info": {
+    "name": "Creation Compte - Resultat",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "bouton_primaire": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "bouton_secondaire": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/asile",
+      "handler": "asile.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/asile",
+      "handler": "asile.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/asile",
+      "handler": "asile.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

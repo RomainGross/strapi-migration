@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_traductions_texte_court_i18ns",
+  "info": {
+    "name": "Texte court i18n",
+    "icon": "globe-americas"
+  },
+  "options": {},
+  "attributes": {
+    "fr": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "en": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    }
+  }
+}

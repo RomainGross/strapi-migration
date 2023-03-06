@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/espace-retour",
+      "handler": "espace-retour.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/espace-retour",
+      "handler": "espace-retour.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/espace-retour",
+      "handler": "espace-retour.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

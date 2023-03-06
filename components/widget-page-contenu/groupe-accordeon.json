@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_widget_page_contenu_groupe_accordeons",
+  "info": {
+    "name": "groupe accordeon",
+    "icon": "grip-lines"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "accordeons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-page-contenu.accordeon",
+      "required": true
+    }
+  }
+}

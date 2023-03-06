@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mes-services-en-ligne",
+      "handler": "mes-services-en-ligne.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mes-services-en-ligne",
+      "handler": "mes-services-en-ligne.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mes-services-en-ligne",
+      "handler": "mes-services-en-ligne.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

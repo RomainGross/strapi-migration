@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_widget_procedures_en_cours",
+  "info": {
+    "name": "Procedures en cours",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "procedure_asile": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "widget.procedure-asile"
+    },
+    "procedure_regroupement_familial": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "widget.procedure-regroupement-familial"
+    },
+    "procedure_retour": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "widget.procedure-retour"
+    },
+    "procedure_reinsertion": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "widget.procedure-reinsertion"
+    },
+    "texte_aucune_procedure": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "titre_en_cours": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "titre_termines": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

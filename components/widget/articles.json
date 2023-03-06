@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_widget_articles",
+  "info": {
+    "name": "Articles",
+    "icon": "book-reader",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "bouton_voir_plus": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

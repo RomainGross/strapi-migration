@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rri-bagages",
+      "handler": "rri-bagages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rri-bagages",
+      "handler": "rri-bagages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rri-bagages",
+      "handler": "rri-bagages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

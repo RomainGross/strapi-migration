@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_widget_cartes",
+  "info": {
+    "name": "Carte",
+    "icon": "credit-card"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

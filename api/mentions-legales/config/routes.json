@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mentions-legales",
+      "handler": "mentions-legales.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mentions-legales",
+      "handler": "mentions-legales.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mentions-legales",
+      "handler": "mentions-legales.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

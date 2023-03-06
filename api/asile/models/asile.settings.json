@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "espace-asile",
+  "info": {
+    "name": "Espace Asile",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "hebergement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.hebergement"
+    },
+    "documents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.documents"
+    },
+    "dernier_versement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.dernier-versement"
+    },
+    "articles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.articles",
+      "required": true
+    }
+  }
+}

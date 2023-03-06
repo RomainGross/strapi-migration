@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_widget_page_contenu_images_with_alt",
+    "info": {
+      "name": "Images_with_alt",
+      "icon": "image"
+    },
+    "options": {},
+    "attributes": {
+      "image": {
+        "model": "file",
+        "via": "related",
+        "allowedTypes": ["images", "files", "videos"],
+        "plugin": "upload",
+        "required": true
+      },
+      "balise_alt": {
+        "type": "component",
+        "repeatable": false,
+        "component": "traductions.texte-court-i18n"
+      }
+    }
+  }
+  

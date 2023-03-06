@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_widget_page_contenu_groupe_listes",
+  "info": {
+    "name": "groupe-listes",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "liste": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-page-contenu.liste",
+      "required": true
+    }
+  }
+}

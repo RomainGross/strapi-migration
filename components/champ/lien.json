@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_champ_liens",
+  "info": {
+    "name": "Lien",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "nom": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "lien": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    }
+  }
+}

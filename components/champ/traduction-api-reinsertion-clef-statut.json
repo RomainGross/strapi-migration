@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_champ_traduction_api_reinsertion_clef_statuts",
+  "info": {
+    "name": "Traduction Api Reinsertion - Clef Statut",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "badge_etape_active": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

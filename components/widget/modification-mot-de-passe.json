@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_modification_mot_de_passes",
+  "info": {
+    "name": "Modification mot de passe",
+    "icon": "unlock-alt"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "texte_bouton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

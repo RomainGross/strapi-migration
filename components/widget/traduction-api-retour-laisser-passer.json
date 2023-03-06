@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_widget_traduction_api_retour_laisser_passer_s",
+  "info": {
+    "name": "Traduction api retour - Laisser Passer ",
+    "icon": "chevron-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "ouvert": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "valide": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

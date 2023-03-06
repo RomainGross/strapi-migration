@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "traduction_api_regroupement_familials",
+  "info": {
+    "name": "Traduction api regroupement familial",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "clef_statuts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-clefs-statuts",
+      "required": true
+    },
+    "nom_etapes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-etape-noms",
+      "required": true
+    },
+    "statut_etapes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-etape-statuts",
+      "required": true
+    },
+    "lien_familial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-lien-familial",
+      "required": true
+    },
+    "statuts_enquetes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.statuts-enquetes",
+      "required": true
+    },
+    "motifs_enquete_ressources": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.motifs-enquete-ressources",
+      "required": true
+    },
+    "demande_rf_en_cours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

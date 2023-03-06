@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bloc-articles",
+      "handler": "bloc-articles.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bloc-articles",
+      "handler": "bloc-articles.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bloc-articles",
+      "handler": "bloc-articles.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

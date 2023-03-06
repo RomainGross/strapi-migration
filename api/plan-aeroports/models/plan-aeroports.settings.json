@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "plan_aeroports",
+  "info": {
+    "name": "Plan Aeroports"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "aeroports": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget.plan-aeroports-aeroport",
+      "required": true
+    }
+  }
+}

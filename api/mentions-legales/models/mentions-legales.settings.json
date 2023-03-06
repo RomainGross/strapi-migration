@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "mentions_legales",
+  "info": {
+    "name": "Mentions Legales"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "description_page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    }
+  }
+}

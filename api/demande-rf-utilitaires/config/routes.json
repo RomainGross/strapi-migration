@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/demande-rf-utilitaires",
+      "handler": "demande-rf-utilitaires.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/demande-rf-utilitaires",
+      "handler": "demande-rf-utilitaires.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/demande-rf-utilitaires",
+      "handler": "demande-rf-utilitaires.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

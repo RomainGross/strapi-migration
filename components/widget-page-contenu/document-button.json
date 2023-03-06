@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_widget_page_contenu_document_buttons",
+  "info": {
+    "name": "Document Button",
+    "icon": "sticky-note"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "document": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

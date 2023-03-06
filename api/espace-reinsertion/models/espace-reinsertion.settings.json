@@ -1,0 +1,81 @@
+{
+  "kind": "singleType",
+  "collectionName": "espace_reinsertions",
+  "info": {
+    "name": "Espace Reinsertion",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre_niveau_aide_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "titre_niveau_aide_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "titre_niveau_aide_3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "aide_accordee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "mon_contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.espace-reinsertion-mon-contact",
+      "required": true
+    },
+    "mes_informations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bloc-information-repetable",
+      "required": true
+    },
+    "beneficiaire_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "mon_operateur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.espace-reinsertion-mon-operateur",
+      "required": true
+    },
+    "timeline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.espace-reinsertion-timeline",
+      "required": true
+    },
+    "mes_rappels": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.espace-reinsertion-mes-rappels",
+      "required": true
+    },
+    "titre_documents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

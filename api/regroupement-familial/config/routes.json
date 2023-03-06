@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/regroupement-familial",
+      "handler": "regroupement-familial.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/regroupement-familial",
+      "handler": "regroupement-familial.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/regroupement-familial",
+      "handler": "regroupement-familial.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

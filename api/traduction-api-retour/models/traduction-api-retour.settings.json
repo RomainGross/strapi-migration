@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "traduction_api_retours",
+  "info": {
+    "name": "Traduction Api Retour"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "laisser_passer_statuts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.traduction-api-retour-laisser-passer"
+    }
+  }
+}

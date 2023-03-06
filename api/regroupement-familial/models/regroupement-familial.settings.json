@@ -1,0 +1,74 @@
+{
+  "kind": "singleType",
+  "collectionName": "regroupement_familials",
+  "info": {
+    "name": "Espace Regroupement Familial",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sous_titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "numero_dossier_label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "organisation_en_charge": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "rf_beneficiaires": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.rf-beneficiaires",
+      "required": true
+    },
+    "rf_recapitulatif": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.rf-recapitulatif",
+      "required": true
+    },
+    "rf_informations_globales": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.rf-informations-globales",
+      "required": true
+    },
+    "rf_details_instruction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.rf-details-instruction",
+      "required": true
+    },
+    "rf_documents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.documents",
+      "required": true
+    },
+    "liste_des_documents_manquants": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "label_date_envoi_consulat": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

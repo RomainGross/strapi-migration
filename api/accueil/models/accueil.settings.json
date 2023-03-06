@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "accueils",
+  "info": {
+    "name": "accueil",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "services_en_ligne": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.accueil-section"
+    },
+    "procedures": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.accueil-section"
+    },
+    "comment_ca_marche": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.comment-ca-marche"
+    },
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "sous_titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "texte_bouton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "articles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.articles",
+      "required": true
+    },
+    "nos_services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.nos-services",
+      "required": true
+    },
+    "integration_france": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.integration-france",
+      "required": true
+    }
+  }
+}

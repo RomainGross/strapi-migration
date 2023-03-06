@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_widget_expression_besoin_niveau_aide_2s",
+  "info": {
+    "name": "Expression Besoin - Niveau Aide 2",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "beneficiaire_label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "domaine_formation_label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "besoins_complementaires_label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "liste_documents",
+  "info": {
+    "name": "liste documents"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nom_bouton_telecharger": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "traductions.texte-court-i18n"
+    },
+    "message_aucun_documents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    },
+    "erreur_telechargement_titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "erreur_telechargement_description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    },
+    "numero_dossier_label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

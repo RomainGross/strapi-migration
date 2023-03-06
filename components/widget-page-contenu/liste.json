@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_widget_page_contenu_listes",
+  "info": {
+    "name": "liste",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "titre_liste": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "ligne": {
+      "type": "component",
+      "repeatable": true,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

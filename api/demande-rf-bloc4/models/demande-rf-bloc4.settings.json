@@ -1,0 +1,548 @@
+{
+  "kind": "singleType",
+  "collectionName": "demande_rf_bloc4s",
+  "info": {
+    "name": "Demande RF - Bloc4",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre_principal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "button_infobulle_en_savoir_plus": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "travail_dans_btp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "arret_travail_annee_passee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "autres_ressources": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "pension_alimentaire": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "declarer_conjoint_ressources": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "nouvelle_activite": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "titre_selection_activites_pro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "fichier_dernier_avis_impot": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_derniere_declaration_revenus": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_justificatif_presta_social_algerien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_btp_justif_conges_payes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_secu_social_indemnite_jour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_justif_attribution_aah_asi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_justif_paiement_aah_asi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_autre_document_origine_revenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_justif_pension_alimentaire": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_releve_compte_origine_revenus": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_contrat_attestation_travail": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_certificat_travail_cdi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_bulletin_salaire_cdi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_contrat_attestation_travail_interim": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_certificat_travail_interim": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_contrat_attestation_travail_cdd": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_certificat_travail_cdd": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_bulletin_salaire_cdd": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_artisan_extrait_inscription_metier": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_artisan_bilan_comptable": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_chomage_releve_situation_droits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_liberal_extrait_inscription_siren": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_liberal_bilan_comptable": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_commercant_extrait_inscription_rcs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_commercant_bilan_comptable": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_autoent_declaration_activite": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_autoent_livre_recettes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_invalide_attribution_pension": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_invalide_avis_versement_pension": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_retraite_invalidite_attribution_pension": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_retraite_invalidite_avis_versement_pension": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "toast_etape_validee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "detaillez_votre_situation_pro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "situation_professionnelle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "situation_professionnelle_ulterieure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "ajouter_une_situation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "quelle_situation_professionnelle_actuelle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "titre_beneficiaire_aah_asi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n"
+    },
+    "infobulle_fichier_dernier_avis_impot": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_derniere_declaration_revenus": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_titre_quelle_situation_professionnelle": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_votre_contrat_travail": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_bulletins_salaire_cdi": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_titre_autres_profession_a_declarer": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_titre_avez_vous_travailler_btp": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_arret_travail_derniers_mois": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_etes_vous_beneficiaire_aah_asi": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_autres_sources_revenus": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_souhait_declarer_conjoint": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_attestation_travail_employeur": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_certificat_travail": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_bulletins_salaire_cdd": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_releve_situation_et_versements_demandeur_emploi": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_artisan_extrait_repertoire_metier": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_artisan_bilan": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_commercant_registre_commerce_rcs": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_commercant_bilan": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_liberal_extrait_sirene": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_liberal_bilan": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_autoent_cfe": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_autoent_livre_recette": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_invalide_decision_attribution": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_invalide_avis_versement": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_btp_justificatif_versement_conges_payes": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_justificatif_versement_are_secu_arret_travail": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_justificatif_autres_ressources_ou_ressource_conjoint": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_versement_prestations_sociales": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "principale_helpbox_top": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "infobulle_fichier_pension_alimentaire": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_retraite_invalide_decision_attribution": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_fichier_attestation_paiement_aah_asi": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    }
+  }
+}

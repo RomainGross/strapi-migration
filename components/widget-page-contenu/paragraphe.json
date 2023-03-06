@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_widget_page_contenu_paragraphes",
+  "info": {
+    "name": "Paragraphe",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "texteEnrichi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "Articles"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "statut": {
+      "type": "enumeration",
+      "enum": [
+        "publie",
+        "brouillon"
+      ],
+      "default": "brouillon"
+    },
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    },
+    "image_principale_petite": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "lien_article": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "regex": "^[A-Za-z0-9-]*$",
+      "default": "lien-exemple-1",
+      "maxLength": 255
+    },
+    "position": {
+      "type": "integer",
+      "min": 1
+    },
+    "contenu": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.introduction",
+        "widget-page-contenu.groupe-vignette",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.video"
+      ]
+    },
+    "categorie": {
+      "model": "categories-article"
+    }
+  }
+}

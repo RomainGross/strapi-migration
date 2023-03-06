@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "traduction_api_rri_expression_besoins",
+  "info": {
+    "name": "Traduction Api RRI Expression Besoin"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "niveau_1_type": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.rri-niveau-1-type",
+      "required": true
+    },
+    "niveau_1_descriptif_besoin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.rri-niveau-1-descriptif-besoins",
+      "required": true
+    },
+    "besoins_formation_complementaire": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.rri-besoins-formation-complementaire",
+      "required": true
+    }
+  }
+}

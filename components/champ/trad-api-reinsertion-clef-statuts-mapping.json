@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_champ_trad_api_reinsertion_clef_statuts_mappings",
+  "info": {
+    "name": "Trad Api Reinsertion - Clef Statuts Mapping",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "dossier_reinsertion_seule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.traduction-api-reinsertion-clef-statut",
+      "required": true
+    },
+    "dossier_en_attente_de_commande": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.traduction-api-reinsertion-clef-statut",
+      "required": true
+    },
+    "dossier_etude_commandee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.traduction-api-reinsertion-clef-statut",
+      "required": true
+    },
+    "dossier_soumis_a_decision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.traduction-api-reinsertion-clef-statut",
+      "required": true
+    },
+    "dossier_decision_suivi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.traduction-api-reinsertion-clef-statut",
+      "required": true
+    },
+    "dossier_decision_ajournee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.traduction-api-reinsertion-clef-statut",
+      "required": true
+    },
+    "dossier_decision_rejetee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.traduction-api-reinsertion-clef-statut",
+      "required": true
+    },
+    "dossier_decision_cloturee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.traduction-api-reinsertion-clef-statut",
+      "required": true
+    },
+    "dossier_decision_validee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.traduction-api-reinsertion-clef-statut",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_espace_retour_bulle_informations",
+  "info": {
+    "name": "Espace Retour - Bulle Information",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "retour_effectue": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    },
+    "reorganisation_voyage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    },
+    "retour_clos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    }
+  }
+}

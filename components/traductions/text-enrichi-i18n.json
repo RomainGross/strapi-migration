@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_traductions_text_enrichi_i18ns",
+  "info": {
+    "name": "Text Enrichi I18n",
+    "icon": "language"
+  },
+  "options": {},
+  "attributes": {
+    "fr": {
+      "type": "richtext"
+    },
+    "en": {
+      "type": "richtext"
+    }
+  }
+}

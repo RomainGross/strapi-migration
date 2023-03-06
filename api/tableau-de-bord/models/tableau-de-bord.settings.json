@@ -1,0 +1,74 @@
+{
+  "kind": "singleType",
+  "collectionName": "tableau_de_bords",
+  "info": {
+    "name": "Tableau de bord",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "articles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.articles"
+    },
+    "procedures_en_cours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.procedures-en-cours",
+      "required": true
+    },
+    "procedures": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bloc-lien",
+      "required": true
+    },
+    "services_en_ligne": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bloc-lien",
+      "required": true
+    },
+    "text_demande_soumise": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "titre_modale_confirmation_envoi_demande_rf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "content_modale_confirmation_envoi_demande_rf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    },
+    "bouton_retour_modale": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "bouton_je_donne_mon_avis_alt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "bouton_je_donne_mon_avis_lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n"
+    },
+    "bouton_je_donne_mon_avis_lien_image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "kind": "singleType",
+  "collectionName": "rappels",
+  "info": {
+    "name": "Rappels",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "texte_rappel_dernier_versement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n"
+    },
+    "duree_notification_versement": {
+      "type": "integer"
+    },
+    "aucun_rappel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "texte_rappel_changement_statut_rf": {
+      "description": "Variables disponibles: {numeroDossier} ; {statut} ; {date} . ⚠️ Attention à bien les utiliser avec les accolades",
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n"
+    },
+    "duree_changement_statut_rf": {
+      "type": "integer"
+    },
+    "texte_rappel_changement_statut_reinsertion": {
+      "description": "Variable disponible: {dateDeChangement} ; {dateDeChangement} . ⚠️ Attention à bien les utiliser avec les accolades",
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    },
+    "duree_changement_statut_reinsertion": {
+      "type": "integer"
+    },
+    "texte_rappel_statut_retour_voyage_planifie": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    },
+    "texte_rappel_statut_retour_attente_reorganisation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    },
+    "texte_rappel_statut_retour_clos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    }
+  }
+}

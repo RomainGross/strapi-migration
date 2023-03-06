@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_widget_espace_reinsertion_timelines",
+  "info": {
+    "name": "Espace Reinsertion - Timeline",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "titre_timeline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "titre_prise_rendez_vous": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "titre_etude_en_cours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "titre_decision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_champ_regroupement_familial_etape_noms",
+  "info": {
+    "name": "regroupement familial etape noms",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "receptionnee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "en_cours_instruction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "en_attente_decision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "decision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

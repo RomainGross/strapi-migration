@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/demande-rf-recapitulatif",
+      "handler": "demande-rf-recapitulatif.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/demande-rf-recapitulatif",
+      "handler": "demande-rf-recapitulatif.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/demande-rf-recapitulatif",
+      "handler": "demande-rf-recapitulatif.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

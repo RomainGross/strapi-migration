@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_widget_rf_informations_globales",
+  "info": {
+    "name": "RF informations globales",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    },
+    "label_lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "slug_lien": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

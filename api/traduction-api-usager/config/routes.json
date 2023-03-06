@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/traduction-api-usager",
+      "handler": "traduction-api-usager.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/traduction-api-usager",
+      "handler": "traduction-api-usager.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/traduction-api-usager",
+      "handler": "traduction-api-usager.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

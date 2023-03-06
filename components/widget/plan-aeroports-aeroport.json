@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_widget_plan_aeroports_aeroports",
+  "info": {
+    "name": "Plan Aeroports - Aeroport",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "code_aeroport": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "document": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

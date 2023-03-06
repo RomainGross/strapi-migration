@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/traduction-api-regroupement-familial",
+      "handler": "traduction-api-regroupement-familial.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/traduction-api-regroupement-familial",
+      "handler": "traduction-api-regroupement-familial.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/traduction-api-regroupement-familial",
+      "handler": "traduction-api-regroupement-familial.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

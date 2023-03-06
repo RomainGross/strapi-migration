@@ -1,0 +1,130 @@
+{
+  "collectionName": "components_champ_regroupement_familial_clefs_statuts",
+  "info": {
+    "name": "regroupement familial clefs statuts",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "receptionne__receptionne_document_recu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "receptionne__receptionne": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "receptionne__receptionne_attente_retour_prefecture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "receptionne__receptionne_attente_documents_complementaires": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "en_cours_instruction__en_cours_instruction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "attente_decision_prefecture__attente_decision_prefecture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "decision__decision_attente_retour_prefecture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "decision__favorable": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "decision__favorable_attente_paiement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "decision__favorable_relance_paiement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "decision__defavorable": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "pas_etape__dossier_cloture__demande_interresse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "pas_etape__dossier_cloture__acquisition_nationnalite_francaise": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "pas_etape__dossier_cloture__demenagement_departement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "pas_etape__dossier_cloture__dt_non_competente": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "pas_etape__dossier_cloture__dossier_incomplet": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "pas_etape__dossier_cloture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "pas_etape__dossier_cloture__dossier_irrecevable": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "portail__en_cours_de_depot": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    },
+    "portail__receptionne": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.regroupement-familial-details-clef-statut",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mes-documents",
+      "handler": "mes-documents.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mes-documents",
+      "handler": "mes-documents.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mes-documents",
+      "handler": "mes-documents.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

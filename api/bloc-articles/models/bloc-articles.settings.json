@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "bloc_articles",
+  "info": {
+    "name": "Bloc Articles"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "articles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.articles",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "mon_allocations",
+  "info": {
+    "name": "Mon Allocation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "dernier_versement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.dernier-versement"
+    },
+    "historique_versements": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.historique-versements"
+    },
+    "moyen_de_paiement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.moyen-de-paiment"
+    }
+  }
+}

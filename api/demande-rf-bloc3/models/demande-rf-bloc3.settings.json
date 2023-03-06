@@ -1,0 +1,386 @@
+{
+  "kind": "singleType",
+  "collectionName": "demande_rf_bloc3s",
+  "info": {
+    "name": "Demande RF - Bloc3",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre_principal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "button_infobulle_en_savoir_plus": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "completer_infos_logement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "vous_residez_en_tant_que": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "par": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "vous_habitez_au": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "vous_serez": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "famille_habitera_au": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "nom_hebergeur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "date_dispo_logement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "erreur_date_dispo_logement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "nature_resident": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "voir_cerfa_mise_a_dispo_logement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "oui_loge": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "non_pas_loge": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "famille_loge_a_cette_adresse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "infobulle_vous_residez_en_tant_que": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_votre_famille_sera_loge_a_cette_adresse": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_date_mise_a_dispo_logement": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_justif_domicile_moins_trois_mois": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_bail_complet": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_derniere_quittante_loyer": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_engagement_sous_location": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_par": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_chez": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_vous_habitez_au": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_fichier_acte_propriete": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_justif_identite_hebergeant": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_fichier_attestation_domicile_par_hebergeant": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_attestation_mise_a_dispo_logement": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video",
+        "widget-page-contenu.paragraphe"
+      ]
+    },
+    "infobulle_fichier_attestation_employer_accord_logement": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_promesse_location": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_fichier_attestation_mise_a_dispo_et_descriptif": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_fichier_justificatif_acquisition_logement_futur": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "fichiers_justificatif_domicile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_bail_complet": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_derniere_quittance_loyer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_justificatif_identite_hebergeant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_attestation_hebergement_employeur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_acte_propriete": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_promesse_location": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_attestation_futur_mise_a_dispo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_bail_complet_hebergeant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_attestation_domicile_hebergeant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_attestation_domicile_employeur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_attestation_mise_a_disposition_logement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_engagement_sous_location": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_bail_nom_hebergeant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_justificatif_acquisition_futur_logement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichiers_justificatif_domicile_moins_trois_mois": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "principale_helpbox_top": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "vous_habitez_au_futur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "toast_etape_validee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "infobulle_vous_habitez_au_futur": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "titre_selecteur_hebergeur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "sous_titre_date_disponibilite_logement_futur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "statut_occupation_futur_logement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "bulle_aide_adresse_logement_a_visiter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    }
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "kind": "singleType",
+  "collectionName": "demande_rf_bloc1s",
+  "info": {
+    "name": "Demande RF - Bloc1",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre_principal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "button_infobulle_en_savoir_plus": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.video",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "vous_etes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "vous_appelez": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "nom_naissance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre",
+      "required": true
+    },
+    "nom_usage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre",
+      "required": true
+    },
+    "prenom": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre",
+      "required": true
+    },
+    "date_naissance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "ville_naissance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "pays_naissance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "nationalite": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "completer_infos_perso": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "quel_titre_sejour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "titre_sejour_validite": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "mariage_depuis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "concubinage_depuis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "pacse_depuis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "preciser_nature_titre_sejour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "preciser_mention_titre_sejour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "choisir_votre_situation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "acte_naissance_francais": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "demande_renouvellement_titre_sejour_faite": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "vous_vous_etes_marie": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "acte_mariage_francais": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "acte_deces_francais": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "acte_naissance_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "titre_sejour_recto_verso": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "recepisse_renouvellement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "acte_mariage_langue_origine": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "traduction_acte_mariage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "acte_deces_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "traduction_acte_deces_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "convention_pacs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "jugement_divorce": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "traduction_acte_divorce": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "jugement_divorce_francais": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "fichier_acte_naissance_langue_origine": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "bulle_aide_nationalite_non_eligible": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "bulle_aide_comment_deposer_document": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "regarder_sur_titre_sejour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "quelle_situation_familiale": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "situation_familiale": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "fichier_acte_mariage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_acte_mariage_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_titre_sejour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_recepisse_renouvellement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_acte_deces_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_acte_deces_conjoint_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_convention_pacs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_jugement_divorce": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_jugement_divorce_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "infobulle_titre_sejour": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_validite_titre_sejour": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_titre_sejour_rv": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_vous_etes": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_vous_vous_appelez": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_vous_etes_nee_le": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_vous_etes_de_nationalite": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_fichier_acte_naissance": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_acte_naissance_fr": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_situation_familiale": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_acte_mariage": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_pacs": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_jugement_divorce": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_jugement_divorce_fr": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_fichier_jugement_divorce_langue_origine": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_fichier_acte_deces_conjoint": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_acte_deces_conjoint_est_fr": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "depuis_le": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "divorce_depuis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "titre_date_expiration_titre_sejour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "titre_aide_date_naissance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "erreur_date_mariage_passe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "erreur_date_naissance_passe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "erreur_date_expiration_titre_sejour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "option_defaut_menu_deroulant_mention_titre_sejour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "option_defaut_menu_deroulant_nature_titre_sejour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "usager_mineur_warning_box": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "principale_helpbox_top": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "bulle_alerte_certains_titres_invalides": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "bulle_alerte_mariage_civils_seuls": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "infobulle_fichier_recepisse_renouvellement_fr": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "bulle_aide_titre_sejour_est_expire": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "bulle_aide_comment_faire_venir_ma_famille": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "titre_nationalite": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "toast_etape_validee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "fichier_acte_naissance_fr": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    }
+  }
+}

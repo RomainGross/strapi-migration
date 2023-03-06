@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "mes_services_en_ligne",
+  "info": {
+    "name": "Mes Services en ligne"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "articles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.articles",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_widget_titre_sous_titres",
+  "info": {
+    "name": "Titre sous-titre",
+    "icon": "ellipsis-h"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "sous_titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

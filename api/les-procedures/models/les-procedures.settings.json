@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "les_procedures",
+  "info": {
+    "name": "Les Procedures"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "articles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.articles",
+      "required": true
+    },
+    "integration_france": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.integration-france",
+      "required": true
+    }
+  }
+}

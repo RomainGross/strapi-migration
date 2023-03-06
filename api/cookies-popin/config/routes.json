@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cookies-popin",
+      "handler": "cookies-popin.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cookies-popin",
+      "handler": "cookies-popin.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cookies-popin",
+      "handler": "cookies-popin.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

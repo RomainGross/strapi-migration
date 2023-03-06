@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_widget_comment_ca_marches",
+  "info": {
+    "name": "Comment ça marche",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "bloc_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bloc-explicatif",
+      "required": true
+    },
+    "bloc_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bloc-explicatif",
+      "required": true
+    },
+    "bloc_3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bloc-explicatif",
+      "required": true
+    }
+  }
+}

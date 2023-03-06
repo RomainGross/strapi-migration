@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_widget_page_contenu_groupe_vignette",
+  "info": {
+    "name": "Groupe vignette",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "vignettes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-page-contenu.vignette",
+      "required": true
+    }
+  }
+}

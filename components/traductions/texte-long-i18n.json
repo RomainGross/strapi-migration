@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_traductions_texte_long_i18ns",
+  "info": {
+    "name": "Texte long i18n",
+    "icon": "globe-africa"
+  },
+  "options": {},
+  "attributes": {
+    "fr": {
+      "type": "text",
+      "required": true
+    },
+    "en": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

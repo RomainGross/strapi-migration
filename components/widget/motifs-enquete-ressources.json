@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_motifs_enquete_ressources",
+  "info": {
+    "name": "motifs_enquete_ressources",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "allocation_adultes_handicapes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    },
+    "plus_65_ans": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    },
+    "allocation_supplementaire_invalidite": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    }
+  }
+}

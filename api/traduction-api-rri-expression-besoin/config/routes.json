@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/traduction-api-rri-expression-besoin",
+      "handler": "traduction-api-rri-expression-besoin.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/traduction-api-rri-expression-besoin",
+      "handler": "traduction-api-rri-expression-besoin.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/traduction-api-rri-expression-besoin",
+      "handler": "traduction-api-rri-expression-besoin.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

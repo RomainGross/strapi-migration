@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mocks",
+  "info": {
+    "name": "MOCKS"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "route": {
+      "type": "enumeration",
+      "enum": [
+        "dossier_rri",
+        "voyage",
+        "expression_besoin",
+        "documents",
+        "document"
+      ],
+      "required": true
+    },
+    "numeroAgdref": {
+      "type": "string",
+      "regex": "\\d+",
+      "required": true
+    },
+    "contenu": {
+      "description": "Des exemples sont présents ici: https://www.notion.so/Format-JSON-des-routes-RRI-68fe1d40ed104394b9245b4363339fe5",
+      "type": "json",
+      "required": true
+    }
+  }
+}

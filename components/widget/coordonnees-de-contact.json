@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_coordonnees_de_contacts",
+  "info": {
+    "name": "coordonnees de contact",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "email_label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "telephone_label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

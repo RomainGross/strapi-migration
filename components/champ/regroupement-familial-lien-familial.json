@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_champ_regroupement_familial_lien_familials",
+  "info": {
+    "name": "regroupement familial lien familial",
+    "icon": "car-side"
+  },
+  "options": {},
+  "attributes": {
+    "enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "epoux": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

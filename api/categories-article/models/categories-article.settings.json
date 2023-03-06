@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories_articles",
+  "info": {
+    "name": "Catégories Article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nom": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "code_couleur": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 255
+    },
+    "police_couleur": {
+      "type": "string",
+      "required": false,
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+    }
+  }
+
+}

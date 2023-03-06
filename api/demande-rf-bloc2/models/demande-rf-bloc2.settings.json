@@ -1,0 +1,857 @@
+{
+  "kind": "singleType",
+  "collectionName": "demande_rf_bloc2s",
+  "info": {
+    "name": "Demande RF - Bloc2",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre_principal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "button_infobulle_en_savoir_plus": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "detaillez_composition_familliale": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "qui_est_votre_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "infos_si_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n"
+    },
+    "adresse_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "adresse_vit_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "completer_les_informations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "qui_sont_enfants": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "completer_infos_si_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n"
+    },
+    "adresse_de_votre_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "quelle_adresse_vit_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "btn_ajouter_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "deja_marie": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "declarer_precedentes_unions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n"
+    },
+    "btn_ajouter_union": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "adresse_du_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "adresse_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "radio_choix_adresse_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "numero_voie": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "nom_rue": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "complement_adresse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "code_postal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "localite": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "province": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "adresse_email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "numero_telephone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "option_defaut_choix_pays": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "pays": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "souhaite_reutiliser_adresse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "marie": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "pacse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "union_precedente": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "fichier_conjoint_jugement_divorce": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_conjoint_jugement_divorce_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "date_debut": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "date_debut_erreur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "date_fin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "date_fin_erreur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "declarer_union_precedente": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "vous_etiez": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "conjoint_vit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "conjoint_possede_titre_sejour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "votre_conjoint_est": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "conjoint_marie_auparavant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "genre_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "conjoint_sappel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "nom_naissance_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "prenom_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "nom_usage_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "date_naissance_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "ville_naissance_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "pays_naissance_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "nationalite_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "fichier_acte_naissance_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_acte_naissance_conjoint_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_jugement_divorce_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_jugement_divorce_conjoint_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_titre_identite_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "titre_renseigner_infos_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "sous_titre_renseigner_infos_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n"
+    },
+    "votre_conjoint_sappel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "quelle_nationalite_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "conjoint_modifie": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "conjoint_ajoute": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "bulle_aide_age": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "bulle_aide_nationalite_fr": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "bulle_aide_nationalite_eu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "regardez_titre_identite_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "enfant_ajoute": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "enfant_modifie": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "titre_renseigner_infos_enfants": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "sous_titre_souhait_rf_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n"
+    },
+    "votre_enfant_sappel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "votre_enfant_nationalite": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "votre_lien_avec_autre_parent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "enfant_vit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "genre_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "votre_enfant_est": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "enfant_sappel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "fichier_acte_naissance_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_acte_naissance_enfant_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_kafala_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_jugement_adoption": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_jugement_adoption_enfant_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_attestation_residence_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_jugement_droit_garde": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_jugement_droit_garde_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_lettre_autorisation_autre_parent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_lettre_autorisation_autre_parent_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_acte_deces_autre_parent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_acte_deces_autre_parent_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_livret_famille": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_lettre_disparition_autre_parent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "bulle_aide_enfant_majeur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "bulle_aide_enfant_vit_france": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "bulle_aide_enfant_francais": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "votre_lien_avec_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "votre_lien_avec_second_parent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "titre_date_naissance_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "titre_nationalite_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "infobulle_base_qui_est_votre_conjoint": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_base_avez_vous_ete_marie": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_conjoint_fichier_acte_naissance": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_conjoint_conjoint_marie_auparavant": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_conjoint_fichier_acte_divorce_fr": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_enfant_fichier_acte_naissance_fr": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_enfant_fichier_adoption_original": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_enfant_fichier_kafala_fr": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_enfant_fichier_kafala_original": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_enfant_fichier_livret_famille": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_enfant_fichier_jugement_autorite_parentale_original": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_enfant_fichier_autorisation_autre_parent_fr": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_enfant_fichier_acte_deces_autre_parent_original": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_enfant_fichier_lettre_disparition_fr": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_union_du": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_union_au": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_union_fichier_attestation_dissolution_pacs": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_conjoint_fichier_titre_identite_conjoint": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "infobulle_conjoint_possede_titre_sejour": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "fichier_attestation_dissolution_pacs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "union_ajoutee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "union_modifie": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "infobulle_selecteur_lien_autre_parent": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "titre_selecteur_lien_autre_parent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "fichier_kafala_enfant_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_lettre_disparition_autre_parent_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "kafala_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "abandon_enfant_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "autre_adresse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "bulle_aide_ineligible_conjoint_francais": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "titre_date_union": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "principale_helpbox_top": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "bulle_alerte_mariage_civil_seul": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "bulle_alerte_mariage_civils_seul": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "bulle_alerte_principale": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "infobulle_fichier_declaration_abandon_ou_disparu_tribunal": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.video",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt"
+      ]
+    },
+    "infobulle_selecteur_lien_avec_vous": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "titre_champ_selecteur_lien_avec_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "label_sexe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "label_lieu_residence": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "fichier_union_jugement_divorce": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "fichier_union_jugement_divorce_traduit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.upload-fichiers-rf"
+    },
+    "infobulle_union_fichier_acte_divorce_fr": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.image_with_alt",
+        "widget-page-contenu.video"
+      ]
+    },
+    "bulle_aide_enfant_eur": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox-with-link"
+    },
+    "champs_nationalite_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.titre-sous-titre"
+    },
+    "label_sexe_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "label_lieu_residence_enfant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "label_titre_nationalite_conjoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

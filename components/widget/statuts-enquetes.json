@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_widget_statuts_enquetes",
+  "info": {
+    "name": "statuts_enquetes",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "en_cours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "terminee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "sans_suite": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "dispensee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

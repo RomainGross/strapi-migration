@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_widget_page_contenu_vignettes",
+  "info": {
+    "name": "Vignette",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "illustration": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "contenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    }
+  }
+}

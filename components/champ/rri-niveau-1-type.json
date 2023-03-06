@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_champ_rri_niveau_1_types",
+  "info": {
+    "name": "RRI Niveau 1 Type",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "sante": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "logement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "scolarisation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "autre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

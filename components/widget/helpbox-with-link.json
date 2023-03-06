@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_widget_helpbox_with_links",
+  "info": {
+    "name": "helpbox_with_link",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "contenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n"
+    },
+    "bouton_ou_lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

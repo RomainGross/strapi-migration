@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_champ_regroupement_familial_details_clef_statuts",
+  "info": {
+    "name": "regroupement familial details clef statut",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "statut": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "explication_titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "explication_description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    },
+    "sous_statut": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": false
+    },
+    "en_attente_details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": false
+    }
+  }
+}

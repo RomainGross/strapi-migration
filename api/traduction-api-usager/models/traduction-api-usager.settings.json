@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "traduction_api_usagers",
+  "info": {
+    "name": "traduction api usager"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "genres": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.genres",
+      "required": true
+    },
+    "civilite": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.civilite"
+    }
+  }
+}

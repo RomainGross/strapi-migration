@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_widget_page_contenu_ligne_accordeons",
+  "info": {
+    "name": "ligne accordeon",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "icone": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload"
+    },
+    "texte": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    }
+  }
+}

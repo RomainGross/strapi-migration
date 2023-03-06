@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "liste_articles",
+  "info": {
+    "name": "Liste Articles"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "texte_lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    },
+    "tous_les_articles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

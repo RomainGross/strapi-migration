@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_widget_bloc_information_repetables",
+  "info": {
+    "name": "Bloc information repetable",
+    "icon": "tv"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "bloc_information": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "widget.bloc-information"
+    }
+  }
+}

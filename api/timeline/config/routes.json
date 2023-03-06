@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/timeline",
+      "handler": "timeline.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/timeline",
+      "handler": "timeline.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/timeline",
+      "handler": "timeline.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

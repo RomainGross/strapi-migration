@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_espace_reinsertion_mon_operateurs",
+  "info": {
+    "name": "Espace Reinsertion - Mon Operateur",
+    "icon": "smile-beam"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "label_nom": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "label_adresse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

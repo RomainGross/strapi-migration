@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/titres-pages",
+      "handler": "titres-pages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/titres-pages",
+      "handler": "titres-pages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/titres-pages",
+      "handler": "titres-pages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

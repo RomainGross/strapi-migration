@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/accessibilite",
+      "handler": "accessibilite.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/accessibilite",
+      "handler": "accessibilite.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/accessibilite",
+      "handler": "accessibilite.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

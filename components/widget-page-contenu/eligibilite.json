@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_page_contenu_eligibilite",
+  "info": {
+    "name": "Eligibilité",
+    "icon": "balance-scale"
+  },
+  "options": {},
+  "attributes": {
+    "texte_bouton_precedent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "texte_bouton_recommencer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "etapes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-page-contenu.etape-eligibilite",
+      "required": true
+    }
+  }
+}

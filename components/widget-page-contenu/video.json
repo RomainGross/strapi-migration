@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_widget_page_contenu_videos",
+  "info": {
+    "name": "Video",
+    "icon": "backward"
+  },
+  "options": {},
+  "attributes": {
+    "lien_video_youtube": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "expression_besoins",
+  "info": {
+    "name": "Expression Besoin",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "niveau_aide_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.expression-besoin-niveau-aide-1",
+      "required": true
+    },
+    "niveau_aide_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.expression-besoin-niveau-aide-2",
+      "required": true
+    },
+    "niveau_aide_3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.expression-besoin-niveau-aide-3",
+      "required": true
+    }
+  }
+}

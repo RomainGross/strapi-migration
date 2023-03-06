@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_widget_page_contenu_illustrations",
+  "info": {
+    "name": "Illustration",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

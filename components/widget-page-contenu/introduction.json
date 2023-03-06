@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_widget_page_contenu_introductions",
+  "info": {
+    "name": "Introduction",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "texte": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    }
+  }
+}

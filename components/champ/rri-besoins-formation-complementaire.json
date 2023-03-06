@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_champ_rri_besoins_formation_complementaires",
+  "info": {
+    "name": "RRI Besoins Formation Complementaire",
+    "icon": "school"
+  },
+  "options": {},
+  "attributes": {
+    "compta_gestion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "technique_metier": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "informatique": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "linguistique": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "autre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

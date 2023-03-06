@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_widget_espace_reinsertion_mes_rappels",
+  "info": {
+    "name": "Espace Reinsertion - Mes Rappels",
+    "icon": "arrow-alt-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "texte_rappel_prise_rdv_reinsertion": {
+      "description": "Variable disponible: {joursRestant} . ⚠️ Attention à bien les utiliser avec les accolades",
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    },
+    "texte_rappel_prise_rdv_reinsertion_date_depassee": {
+      "description": "Variable disponible: {joursDeRetard} . ⚠️ Attention à bien les utiliser avec les accolades",
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.text-enrichi-i18n",
+      "required": true
+    }
+  }
+}

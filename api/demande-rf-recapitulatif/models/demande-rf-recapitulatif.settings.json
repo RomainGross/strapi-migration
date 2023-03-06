@@ -1,0 +1,72 @@
+{
+  "kind": "singleType",
+  "collectionName": "demande_rf_recapitulatifs",
+  "info": {
+    "name": "Demande RF - Recapitulatif",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre_page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "numero_dossier": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "telecharger_cerfa": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "poid_fichier_cerfa": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": false
+    },
+    "titre_acceder_documents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "contenu_acceder_documents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    },
+    "lien_acceder_documents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "titre_principal_page_recapitulatif": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "helpbox_confirmation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    },
+    "helpbox_mail_envoye": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.helpbox"
+    }
+  }
+}

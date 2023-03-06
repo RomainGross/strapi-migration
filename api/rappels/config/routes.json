@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rappels",
+      "handler": "rappels.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rappels",
+      "handler": "rappels.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rappels",
+      "handler": "rappels.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

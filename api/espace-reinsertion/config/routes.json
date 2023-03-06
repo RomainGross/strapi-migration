@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/espace-reinsertion",
+      "handler": "espace-reinsertion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/espace-reinsertion",
+      "handler": "espace-reinsertion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/espace-reinsertion",
+      "handler": "espace-reinsertion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

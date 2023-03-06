@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_widget_avatars",
+  "info": {
+    "name": "avatar",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "homme": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": true
+    },
+    "femme": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": true
+    },
+    "neutre": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["files", "images", "videos"],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "timelines",
+  "info": {
+    "name": "Timeline"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "badge_statuts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.timeline-badge-statuts",
+      "required": true
+    }
+  }
+}

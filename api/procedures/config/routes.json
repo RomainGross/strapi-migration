@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/procedures",
+      "handler": "procedures.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/procedures/count",
+      "handler": "procedures.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/procedures/:id",
+      "handler": "procedures.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/procedures",
+      "handler": "procedures.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/procedures/:id",
+      "handler": "procedures.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/procedures/:id",
+      "handler": "procedures.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

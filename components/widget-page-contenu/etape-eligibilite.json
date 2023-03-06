@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_widget_page_contenu_etape_eligibilite",
+  "info": {
+    "name": "Etape Eligibilité",
+    "icon": "step-forward"
+  },
+  "options": {},
+  "attributes": {
+    "reference": {
+      "type": "integer",
+      "required": true,
+      "unique": false
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "premiere_question",
+        "question",
+        "resultat_eligible",
+        "resultat_non_eligible"
+      ],
+      "required": true
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "reference_suivante_si_oui": {
+      "type": "integer",
+      "required": false
+    },
+    "reference_suivante_si_non": {
+      "type": "integer"
+    },
+    "aria_label_si_oui": {
+      "type": "component",
+      "required": false,
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "aria_label_si_non": {
+      "type": "component",
+      "required": false,
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    }
+  }
+}

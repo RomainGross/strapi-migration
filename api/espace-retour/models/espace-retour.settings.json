@@ -1,0 +1,74 @@
+{
+  "kind": "singleType",
+  "collectionName": "espace_retours",
+  "info": {
+    "name": "espace retour",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "voyage_a_venir": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.retour-voyage-a-venir",
+      "required": true
+    },
+    "bloc_reinsertion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.espace-retour-reinsertion",
+      "required": true
+    },
+    "titre_beneficiaire": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "titre_pecule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "laisser_passer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.espace-retour-laisser-passer"
+    },
+    "mon_rendez_vous": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.espace-retour-mon-rendez-vous",
+      "required": true
+    },
+    "mon_vol": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.espace-retour-mon-vol",
+      "required": true
+    },
+    "informations_generales": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.bloc-information-repetable",
+      "required": true
+    },
+    "bulle_information": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widget.espace-retour-bulle-information",
+      "required": true
+    },
+    "titre_documents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    }
+  }
+}

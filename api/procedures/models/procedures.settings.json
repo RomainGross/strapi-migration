@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "procedures",
+  "info": {
+    "name": "Procedures",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "statut": {
+      "type": "enumeration",
+      "enum": [
+        "publie",
+        "brouillon"
+      ],
+      "default": "brouillon"
+    },
+    "image_principale": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n"
+    },
+    "lien_procedure": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "default": "example-lien-1",
+      "regex": "^[A-Za-z0-9-]*$",
+      "maxLength": 255
+    },
+    "position": {
+      "type": "integer",
+      "min": 1,
+      "required": true
+    },
+    "contenu": {
+      "type": "dynamiczone",
+      "components": [
+        "widget-page-contenu.paragraphe",
+        "widget-page-contenu.introduction",
+        "widget-page-contenu.groupe-accordeon",
+        "widget-page-contenu.eligibilite",
+        "widget-page-contenu.groupe-vignette",
+        "widget-page-contenu.illustration",
+        "widget-page-contenu.document-button"
+      ],
+      "required": false
+    }
+  }
+}

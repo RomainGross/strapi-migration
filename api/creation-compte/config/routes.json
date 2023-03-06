@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/creation-compte",
+      "handler": "creation-compte.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/creation-compte",
+      "handler": "creation-compte.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/creation-compte",
+      "handler": "creation-compte.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

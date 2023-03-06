@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mon-allocation",
+      "handler": "mon-allocation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mon-allocation",
+      "handler": "mon-allocation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mon-allocation",
+      "handler": "mon-allocation.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

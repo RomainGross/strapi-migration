@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tableau-de-bord",
+      "handler": "tableau-de-bord.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tableau-de-bord",
+      "handler": "tableau-de-bord.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tableau-de-bord",
+      "handler": "tableau-de-bord.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

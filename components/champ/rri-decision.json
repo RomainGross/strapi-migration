@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_champ_rri_decisions",
+  "info": {
+    "name": "RRI - decision",
+    "icon": "check-circle"
+  },
+  "options": {},
+  "attributes": {
+    "validee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.rri-decision-details",
+      "required": true
+    },
+    "refusee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.rri-decision-details",
+      "required": true
+    },
+    "ajournee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "champ.rri-decision-details",
+      "required": true
+    }
+  }
+}

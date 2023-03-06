@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/traduction-api-retour",
+      "handler": "traduction-api-retour.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/traduction-api-retour",
+      "handler": "traduction-api-retour.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/traduction-api-retour",
+      "handler": "traduction-api-retour.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

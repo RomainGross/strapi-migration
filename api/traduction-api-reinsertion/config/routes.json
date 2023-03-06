@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/traduction-api-reinsertion",
+      "handler": "traduction-api-reinsertion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/traduction-api-reinsertion",
+      "handler": "traduction-api-reinsertion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/traduction-api-reinsertion",
+      "handler": "traduction-api-reinsertion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

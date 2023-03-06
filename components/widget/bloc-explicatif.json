@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_widget_bloc_explicatifs",
+  "info": {
+    "name": "BlocExplicatif",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-court-i18n",
+      "required": true
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "traductions.texte-long-i18n",
+      "required": true
+    }
+  }
+}

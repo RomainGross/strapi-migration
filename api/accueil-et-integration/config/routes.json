@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/accueil-et-integration",
+      "handler": "accueil-et-integration.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/accueil-et-integration",
+      "handler": "accueil-et-integration.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/accueil-et-integration",
+      "handler": "accueil-et-integration.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
